@@ -8,6 +8,11 @@ body,
   padding: 0;
 }
 
+#__nuxt {
+  display: flex;
+  flex-direction: column;
+}
+
 html.dark {
   color-scheme: dark;
 }

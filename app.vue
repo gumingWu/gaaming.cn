@@ -4,6 +4,6 @@ setupPageHeader()
 
 <template>
   <NuxtLayout>
-    hiil
+    <NuxtPage />
   </NuxtLayout>
 </template>

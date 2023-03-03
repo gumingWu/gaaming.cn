@@ -9,6 +9,7 @@
   },
   "devDependencies": {
     "@antfu/eslint-config": "^0.35.3",
+    "@nuxt/devtools": "^0.2.5",
     "@unocss/nuxt": "^0.50.3",
     "nuxt": "^3.2.2"
   }
