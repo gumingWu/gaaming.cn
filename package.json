@@ -12,5 +12,8 @@
     "@nuxt/devtools": "^0.2.5",
     "@unocss/nuxt": "^0.50.3",
     "nuxt": "^3.2.2"
+  },
+  "dependencies": {
+    "@vueuse/nuxt": "^9.13.0"
   }
 }

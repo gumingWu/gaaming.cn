@@ -1,4 +1,5 @@
-<script setup lang="ts"></script>
+<script setup lang="ts">
+</script>
 
 <template>
   <LayoutHeader />
@@ -8,4 +9,8 @@
   <LayoutFooter />
 </template>
 
-<style scoped></style>
+<style scoped>
+main {
+  background-color: var(--c-bg);
+}
+</style>
