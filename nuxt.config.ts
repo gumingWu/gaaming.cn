@@ -8,6 +8,7 @@ export default defineNuxtConfig({
   css: [
     '~/styles/global.css',
     '~/styles/vars.css',
+    '@unocss/reset/tailwind.css',
   ],
   unocss: {
     // presets

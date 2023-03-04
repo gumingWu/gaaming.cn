@@ -2,12 +2,16 @@ lockfileVersion: 5.4
 
 specifiers:
   '@antfu/eslint-config': ^0.35.3
+  '@iconify-json/simple-icons': ^1.1.45
+  '@iconify-json/tabler': ^1.1.64
   '@nuxt/devtools': ^0.2.5
   '@unocss/nuxt': ^0.50.3
   '@vueuse/nuxt': ^9.13.0
   nuxt: ^3.2.2
 
 dependencies:
+  '@iconify-json/simple-icons': 1.1.45
+  '@iconify-json/tabler': 1.1.64
   '@vueuse/nuxt': 9.13.0_nuxt@3.2.2
 
 devDependencies:
@@ -799,9 +803,20 @@ packages:
     resolution: {integrity: sha512-k2Ty1JcVojjJFwrg/ThKi2ujJ7XNLYaFGNB/bWT9wGR+oSMJHMa5w+CUq6p/pVrKeNNgA7pCqEcjSnHVoqJQFw==}
     dev: true
 
+  /@iconify-json/simple-icons/1.1.45:
+    resolution: {integrity: sha512-UW+Xc3VYB7+TRu1S/P6zqucPcNQupzuMxqHgTqjdrLCHpZ8ZrSodAgAfnxbOBgBgGB0iJmtgLZRRDj3gj9b1xg==}
+    dependencies:
+      '@iconify/types': 2.0.0
+    dev: false
+
+  /@iconify-json/tabler/1.1.64:
+    resolution: {integrity: sha512-+QMcM/kNRVUt4AdhuXF18RBR+oEsMqIf+zqQX4SMkwfGUzlENtlh4JAFyoeyEaKMdZfszB2TjV7iswxwbPR5hA==}
+    dependencies:
+      '@iconify/types': 2.0.0
+    dev: false
+
   /@iconify/types/2.0.0:
     resolution: {integrity: sha512-+wluvCrRhXrhyOmRDJ3q8mux9JkKy5SJ/v8ol2tu4FVjyYvtEzkc/3pK15ET6RKg4b4w4BmTk1+gsCUhf21Ykg==}
-    dev: true
 
   /@iconify/utils/2.1.4:
     resolution: {integrity: sha512-7vzsYIvxv5Hng0MNEtSSnyMBD/+zqnORqmKiYsSgpMBGSz1r93URgBZHPYCZ1/gpoaVstYW4/SVLGCMJBNMCLQ==}
