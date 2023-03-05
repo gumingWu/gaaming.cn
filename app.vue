@@ -3,7 +3,7 @@ setupPageHeader()
 </script>
 
 <template>
-  <div h-full class="font-mono" flex flex-col>
+  <div class="font-mono h-full flex flex-col" >
     <NuxtLayout>
       <NuxtPage />
     </NuxtLayout>
