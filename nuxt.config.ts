@@ -4,6 +4,7 @@ export default defineNuxtConfig({
     '@vueuse/nuxt',
     '@unocss/nuxt',
     '@nuxt/devtools',
+    '@nuxtjs/color-mode',
   ],
   css: [
     '~/styles/global.css',
@@ -32,4 +33,8 @@ export default defineNuxtConfig({
       ]
     }
   },
+  colorMode: {
+    preference: 'system', // default value of $colorMode.preference
+    classSuffix: '',
+  }
 })

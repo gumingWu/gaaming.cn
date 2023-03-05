@@ -12,7 +12,7 @@ const menus = [
 </script>
 
 <template>
-  <div h-full flex items-center gap-2 >
+  <div h-full flex items-center gap-4 >
     <NuxtLink v-for="menu in menus" :key="menu.title" :to="menu.link" font-bold class="layout-menu" >
       {{ menu.title }}
     </NuxtLink>

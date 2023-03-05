@@ -12,6 +12,7 @@ const topArrived = computed(() => y.value === 0)
       </div>
       <div>
         <LayoutSocial />
+        <LayoutTheme />
       </div>
     </div>
   </header>
