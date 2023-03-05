@@ -25,7 +25,7 @@ const socialLinks = [
 <template>
   <div h-full flex items-center gap-2 text-2xl >
     <NuxtLink v-for="link in socialLinks" :key="link.title" :to="link.to" target="_blank" :title="link.title">
-      <div :class="link.icon" :style="link.extraStyle" cursor-pointer text-slate-500 hover:text-slate-800></div>
+      <div :class="link.icon" :style="link.extraStyle" cursor-pointer text-slate-500 hover:text-slate-800 dark="text-white/50 hover:text-white" ></div>
     </NuxtLink>
   </div>
 </template>
