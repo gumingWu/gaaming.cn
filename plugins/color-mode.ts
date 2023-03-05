@@ -6,7 +6,7 @@ export default defineNuxtPlugin(() => {
     meta: [{
       id: 'theme-color',
       name: 'theme-color',
-      content: () => colorMode.value === 'dark' ? '#00ff00' : '#fafafa',
+      content: () => colorMode.value === 'dark' ? '#111111' : '#fafafa',
     }],
   })
 })
