@@ -17,6 +17,7 @@
   "dependencies": {
     "@iconify-json/simple-icons": "^1.1.45",
     "@iconify-json/tabler": "^1.1.64",
+    "@iconify-json/twemoji": "^1.1.11",
     "@vueuse/nuxt": "^9.13.0"
   }
 }
