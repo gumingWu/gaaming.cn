@@ -3,7 +3,7 @@ const { introRef, imageRef } = useHomeMotion()
 </script>
 
 <template>
-  <div mt-30 md:flex="~ row-reverse" >
+  <div max-w-7xl mt-30 mx-auto md:flex="~ row-reverse" >
     <HomeImage ref="imageRef" flex-1 />
     <HomeIntro ref="introRef" flex-1 />
   </div>

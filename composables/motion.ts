@@ -16,11 +16,12 @@ export function useHomeMotion() {
   useMotion(imageRef, {
     initial: {
       scale: 0,
-      opacity: 0
     },
     enter: {
       scale: 1,
-      opacity: 1
+      transition: {
+        delay: 500,
+      },
     }
   })
 

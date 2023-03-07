@@ -8,6 +8,10 @@ const menus = [
     title: 'Blogs',
     link: '/blogs'
   },
+  {
+    title: 'Explore',
+    link: '/explore'
+  },
 ]
 </script>
 
