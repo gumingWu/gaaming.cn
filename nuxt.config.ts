@@ -5,6 +5,7 @@ export default defineNuxtConfig({
     '@unocss/nuxt',
     '@nuxt/devtools',
     '@nuxtjs/color-mode',
+    '@vueuse/motion/nuxt'
   ],
   css: [
     '~/styles/global.css',

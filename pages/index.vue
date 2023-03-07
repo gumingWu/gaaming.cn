@@ -1,10 +1,10 @@
 <script setup lang="ts">
-const route = useRoute()
+const { introRef, imageRef } = useHomeMotion()
 </script>
 
 <template>
   <div mt-30 md:flex="~ row-reverse" >
-    <HomeImage flex-1 />
-    <HomeIntro flex-1 />
+    <HomeImage ref="imageRef" flex-1 />
+    <HomeIntro ref="introRef" flex-1 />
   </div>
 </template>
