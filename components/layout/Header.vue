@@ -5,14 +5,21 @@ const topArrived = computed(() => y.value === 0)
 
 <template>
   <header w-full h-15 fixed top-0 z-1000 transition-colors shadow :class="!topArrived ? 'bg-white/70 dark:bg-slate-900/80 backdrop-blur-2' : 'bg-transparent'" >
-    <div h-full mx-auto max-w="120rem" px-10 flex justify-between >
+    <div h-full mx-auto max-w="120rem" px="2 md:10" flex justify-between >
       <div flex items-center >
         <LayoutLogo />
-        <LayoutMenu />
+        <div hidden sm:block >
+          <LayoutMenu />
+        </div>
       </div>
-      <div flex items-center>
-        <LayoutSocial />
-        <LayoutTheme />
+      <div hidden sm:block>
+        <div h-full flex items-center >
+          <LayoutSocial />
+          <LayoutTheme />
+        </div>
+      </div>
+      <div sm:hidden >
+        <LayoutSmDropDown />
       </div>
     </div>
   </header>

@@ -10,10 +10,10 @@ const svgColor = computed(() => {
 </script>
 
 <template>
-  <div w-50 h-full flex items-center >
+  <div w="15 md:50" h-full flex items-center >
     <NuxtLink to="/" h="80%" flex items-end cursor-pointer select-none >
       <SvgLogo w="48px" h="48px" :style="svgColor" />
-      <i text-4xl font-semibold >aaming</i>
+      <i text-4xl font-semibold hidden md:block >aaming</i>
     </NuxtLink>
   </div>
 </template>
