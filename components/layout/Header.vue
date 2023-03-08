@@ -19,7 +19,7 @@ const topArrived = computed(() => y.value === 0)
         </div>
       </div>
       <div sm:hidden >
-        <LayoutSmDropDown />
+        <LayoutDropDown />
       </div>
     </div>
   </header>
