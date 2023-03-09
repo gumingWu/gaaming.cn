@@ -1,8 +1,14 @@
 <script setup lang="ts">
-withDefaults(defineProps<{
-  divider: boolean
-}>(), {
-  divider: true
+// withDefaults(defineProps<{
+//   divider: boolean
+// }>(), {
+//   divider: true
+// })
+defineProps({
+  divider: {
+    type: Boolean,
+    default: true
+  }
 })
 
 const colorMode = useColorMode()

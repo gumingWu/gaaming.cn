@@ -23,7 +23,7 @@ const emits = defineEmits(['click'])
 
 .hamburger svg {
   /* The size of the SVG defines the overall size */
-  height: 2rem;
+  height: 1.5rem;
   /* Define the transition for transforming the SVG */
   transition: transform 300ms cubic-bezier(0.4, 0, 0.2, 1);
 }
