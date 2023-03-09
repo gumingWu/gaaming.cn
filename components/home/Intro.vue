@@ -52,7 +52,7 @@ useMotion(fendRef, {
       <div ref="imRef" text="5xl md:6xl xl:7xl" font="700" >
         I'm GaamingWu
       </div>
-      <div ref="fendRef" text="2xl md:3xl xl:4xl" >
+      <div ref="fendRef" text="xl md:2xl xl:3xl" >
         <div>
         A front-end developer
         </div>

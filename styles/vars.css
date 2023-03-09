@@ -4,6 +4,8 @@
   --c-logo: #158bb8;
 
   --c-left-divider: rgba(60, 60, 67, 0.12);
+
+  --layout-header-height: 3.75rem;
 }
 
 .dark {
