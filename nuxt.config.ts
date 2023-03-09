@@ -25,7 +25,9 @@ export default defineNuxtConfig({
         mono: ['Fira Code', 'Fira Mono:400,700'],
       }
     },
-    shortcuts: [],
+    shortcuts: {
+      'svg-shortcut': 'text-2xl text-slate-500 hover:text-slate-800 dark="text-white/50 hover:text-white"'
+    },
     rules: [],
   },
   app: {
