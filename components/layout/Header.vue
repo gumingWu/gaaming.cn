@@ -15,7 +15,7 @@ const topArrived = computed(() => y.value === 0)
       <div hidden sm:block>
         <div h-full flex items-center >
           <LayoutSocial />
-          <LayoutTheme />
+          <LayoutTheme :divider="true" />
         </div>
       </div>
       <div sm:hidden h-full flex items-center >

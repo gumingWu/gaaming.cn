@@ -7,9 +7,11 @@ specifiers:
   '@iconify-json/twemoji': ^1.1.11
   '@nuxt/devtools': ^0.2.5
   '@nuxtjs/color-mode': ^3.2.0
+  '@types/body-scroll-lock': ^3.1.0
   '@unocss/nuxt': ^0.50.3
   '@vueuse/motion': 2.0.0-beta.27
   '@vueuse/nuxt': ^9.13.0
+  body-scroll-lock: 4.0.0-beta.0
   nuxt: ^3.2.2
 
 dependencies:
@@ -18,11 +20,13 @@ dependencies:
   '@iconify-json/twemoji': 1.1.11
   '@vueuse/motion': 2.0.0-beta.27
   '@vueuse/nuxt': 9.13.0_nuxt@3.2.2
+  body-scroll-lock: 4.0.0-beta.0
 
 devDependencies:
   '@antfu/eslint-config': 0.35.3
   '@nuxt/devtools': 0.2.5_nuxt@3.2.2
   '@nuxtjs/color-mode': 3.2.0
+  '@types/body-scroll-lock': 3.1.0
   '@unocss/nuxt': 0.50.3
   nuxt: 3.2.2
 
@@ -1445,6 +1449,10 @@ packages:
       minimatch: 6.2.0
     dev: true
 
+  /@types/body-scroll-lock/3.1.0:
+    resolution: {integrity: sha512-3owAC4iJub5WPqRhxd8INarF2bWeQq1yQHBgYhN0XLBJMpd5ED10RrJ3aKiAwlTyL5wK7RkBD4SZUQz2AAAMdA==}
+    dev: true
+
   /@types/estree/1.0.0:
     resolution: {integrity: sha512-WulqXMDUTYAXCjZnk6JtIHPigp55cVtDgDrO2gHRwhyJto21+1zbVCtOYB2L1F9w4qCQ0rOGWBnBe0FNTiEJIQ==}
 
@@ -2293,6 +2301,10 @@ packages:
       buffer: 6.0.3
       inherits: 2.0.4
       readable-stream: 3.6.0
+
+  /body-scroll-lock/4.0.0-beta.0:
+    resolution: {integrity: sha512-a7tP5+0Mw3YlUJcGAKUqIBkYYGlYxk2fnCasq/FUph1hadxlTRjF+gAcZksxANnaMnALjxEddmSi/H3OR8ugcQ==}
+    dev: false
 
   /boolbase/1.0.0:
     resolution: {integrity: sha512-JZOSA7Mo9sNGB8+UjSgzdLtokWAky1zbztM3WRLCbZ70/3cTANmQmOdR7y2g+J0e2WXywy1yS468tY+IruqEww==}
