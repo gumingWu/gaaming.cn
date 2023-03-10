@@ -1,5 +1,6 @@
 <script setup lang="ts">
 import { disableBodyScroll, clearAllBodyScrollLocks } from 'body-scroll-lock'
+import { ProvideMenusType } from '~/types'
 
 const dropdownRef = ref<HTMLElement | null>(null)
 const isMenuOpen = ref(false)
@@ -20,20 +21,7 @@ const closeMenu = () => {
   clearAllBodyScrollLocks()
 }
 
-const menus = [
-  {
-    title: 'Projects',
-    link: '/projects'
-  },
-  {
-    title: 'Blogs',
-    link: '/blogs'
-  },
-  {
-    title: 'Explore',
-    link: '/explore'
-  },
-]
+const menus = inject<ProvideMenusType>('menus')
 </script>
 
 <template>

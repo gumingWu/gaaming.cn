@@ -1,6 +1,23 @@
 <script setup lang="ts">
+import { ProvideMenusType } from '~/types'
+
 const { y } = useWindowScroll()
 const topArrived = computed(() => y.value === 0)
+
+provide<ProvideMenusType>('menus', [
+  {
+    title: 'Projects',
+    link: '/projects'
+  },
+  {
+    title: 'Blogs',
+    link: '/blogs'
+  },
+  {
+    title: 'Explore',
+    link: '/explore'
+  },
+])
 </script>
 
 <template>
@@ -16,6 +33,7 @@ const topArrived = computed(() => y.value === 0)
         <div h-full flex items-center >
           <LayoutSocial />
           <LayoutTheme :divider="true" />
+          <LayoutQuickAccess />
         </div>
       </div>
       <div sm:hidden h-full flex items-center >

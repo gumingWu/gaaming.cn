@@ -1,18 +1,7 @@
 <script setup lang="ts">
-const menus = [
-  {
-    title: 'Projects',
-    link: '/projects'
-  },
-  {
-    title: 'Blogs',
-    link: '/blogs'
-  },
-  {
-    title: 'Explore',
-    link: '/explore'
-  },
-]
+import { ProvideMenusType } from '~~/types'
+
+const menus = inject<ProvideMenusType>('menus')
 </script>
 
 <template>
