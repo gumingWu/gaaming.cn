@@ -26,7 +26,8 @@ export default defineNuxtConfig({
       }
     },
     shortcuts: {
-      'svg-shortcut': 'text-2xl text-slate-500 hover:text-slate-800 dark="text-white/50 hover:text-white"'
+      'svg-shortcut': 'text-2xl text-slate-500 hover:text-slate-800 dark:text-white/50 dark:hover:text-white',
+      'flex-center': 'justify-center items-center',
     },
     rules: [],
   },

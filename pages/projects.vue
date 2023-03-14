@@ -11,13 +11,31 @@ const projects = [
     title: 'gaaming.cn'
   },
   {
+    title: 'witepress'
+  },
+  {
     title: 'vitepress-fun'
+  },
+  {
+    title: 'vitepress-fun-cli'
   },
   {
     title: 'create-vite-vercel'
   },
   {
+    title: 'create-vite-vercel-y'
+  },
+  {
     title: 'coderwjm-cms'
+  },
+  {
+    title: 'wuse'
+  },
+  {
+    title: 'wtime'
+  },
+  {
+    title: 'wacctount'
   },
 ]
 </script>

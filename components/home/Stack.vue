@@ -11,6 +11,7 @@
       <SvgUno title="unocss" w-6 h-6 />
       <img itemprop="image" src="https://avatars.githubusercontent.com/u/80154025?s=200&amp;v=4" w-6 h-6 alt="@unjs" title="unjs" />
       <SvgReact w-6 h-6 text="#087ea4" title="react" />
+      <SvgTs title="ts" />
     </div>
   </div>
 </template>
