@@ -6,8 +6,13 @@
   --c-left-divider: rgba(60, 60, 67, 0.12);
 
   --layout-header-height: 3.75rem;
+
+  --project-card-hover: #23232333;
 }
 
 .dark {
   --c-bg: #21373d;
+  
+  --project-card-hover: #ffffff22;
+
 }

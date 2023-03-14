@@ -16,6 +16,7 @@
     "nuxt": "^3.2.2"
   },
   "dependencies": {
+    "@ant-design/colors": "^7.0.0",
     "@iconify-json/simple-icons": "^1.1.45",
     "@iconify-json/tabler": "^1.1.64",
     "@iconify-json/twemoji": "^1.1.11",
