@@ -20,8 +20,8 @@ const titleStyle = {
       <div rounded="50%" h-30 w-30 flex justify-center items-center text-10 :style="avatarBgStyle" >{{ wordAvatar }}</div>
       <div font-bold text="6 md:8 center" :style="titleStyle" >{{ title }}</div>
       <div class="social-btn" flex gap-4 >
-        <div i-tabler:brand-github class="text-3xl text-slate-500 hover:text-slate-800 dark:text-white/50 dark:hover:text-white" hover:scale-110 ></div>
-        <div i-tabler:brand-npm class="text-3xl text-slate-500 hover:text-slate-800 dark:text-white/50 dark:hover:text-white" hover:scale-110 ></div>
+        <div i-tabler:brand-github class="text-2xl md:text-3xl text-slate-500 hover:text-slate-800 dark:text-white/50 dark:hover:text-white" hover:scale-110 ></div>
+        <div i-tabler:brand-npm class="text-2xl md:text-3xl text-slate-500 hover:text-slate-800 dark:text-white/50 dark:hover:text-white" hover:scale-110 ></div>
       </div>
     </div>
   </div>
