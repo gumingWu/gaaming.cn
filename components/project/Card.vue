@@ -5,7 +5,7 @@ defineProps({
 </script>
 
 <template>
-  <div class="project-card" w-80 h-100 bg="#f5f5f5 dark:slate-800/25" backdrop-grayscale p="x-8 y-6" rounded-md cursor-pointer >
+  <div class="project-card" w="100% sm:60 md:81" h="100 sm:80 md:108" bg="#f5f5f5 dark:slate-800/25" backdrop-grayscale p="x-8 y-6" rounded-md cursor-pointer >
     {{ title }}
   </div>
 </template>

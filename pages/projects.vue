@@ -17,7 +17,7 @@ const projects = [
 </script>
 
 <template>
-  <div max-w-6xl mx-auto mt-10 flex="~ wrap" gap-10 >
+  <div max-w-6xl mx-auto mt-10 flex="~ wrap" gap-20 >
     <ProjectCard v-for="pj in projects" :key="pj.title" :title="pj.title" />
   </div>
 </template>
