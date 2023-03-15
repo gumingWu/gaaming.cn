@@ -1,3 +1,0 @@
-# Second Blog Testing
-
-Testing!
