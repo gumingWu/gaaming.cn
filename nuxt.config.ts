@@ -13,6 +13,8 @@ export default defineNuxtConfig({
   css: [
     '~/styles/global.css',
     '~/styles/vars.css',
+    '~/styles/vp-doc.css',
+    '~/styles/vp-doc-vars.css',
     '@unocss/reset/tailwind.css',
   ],
   unocss: {
