@@ -14,7 +14,8 @@
     "@nuxtjs/color-mode": "^3.2.0",
     "@types/body-scroll-lock": "^3.1.0",
     "@unocss/nuxt": "^0.50.6",
-    "nuxt": "^3.3.2"
+    "nuxt": "^3.3.2",
+    "unstorage": "^1.4.1"
   },
   "dependencies": {
     "@ant-design/colors": "^7.0.0",
