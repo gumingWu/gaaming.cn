@@ -52,4 +52,10 @@ const titleStyle = {
 .project-card:hover .social-btn {
   opacity: 1;
 }
+
+@media (max-width: 640px) {
+  .social-btn {
+    opacity: 1;
+  }
+}
 </style>
