@@ -45,5 +45,5 @@ export default defineNuxtConfig({
   colorMode: {
     preference: 'system', // default value of $colorMode.preference
     classSuffix: '',
-  }
+  },
 })
