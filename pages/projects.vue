@@ -1,9 +1,12 @@
 <script setup lang="ts">
+import { useProjectColor } from '~~/composables/color'
+import type { ProjectListType } from '~~/types'
+
 useHead({
   title: 'Projects'
 })
 
-const projects = [
+const projects: ProjectListType = [
   {
     title: 'wiew-ui'
   },
@@ -38,6 +41,9 @@ const projects = [
     title: 'wacctount'
   },
 ]
+
+const { getProjectListColor } = useProjectColor()
+await getProjectListColor(projects) // initial project list color
 </script>
 
 <template>

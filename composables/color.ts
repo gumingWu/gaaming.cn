@@ -1,4 +1,6 @@
 import { generate } from '@ant-design/colors'
+import { defineStore } from 'pinia'
+import type { ProjectListType } from '~~/types'
 
 export function useColor() {
   const defaultColor = getRandomColor()
@@ -13,6 +15,29 @@ export function useColor() {
     colorList
   }
 }
+
+export const useProjectColor = defineStore('project', () => {
+  const projectListColor = ref<Record<string, any>>(new Map())
+
+  const getProjectListColor = (projectList: ProjectListType) => {
+    if(projectListColor.value.size) return projectListColor
+
+    for(let i=0; i<projectList.length; i++) {
+      const randomColor = useColor()
+      projectListColor.value.set(projectList[i].title, randomColor)
+    }
+    return projectListColor
+  }
+
+  const getCurProjectColor = (title: string) => {
+    return projectListColor.value.get(title)
+  }
+
+  return {
+    getProjectListColor,
+    getCurProjectColor,
+  }
+})
 
 // get random rgb color 
 export function getRandomColor() {

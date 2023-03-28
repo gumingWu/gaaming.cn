@@ -8,6 +8,7 @@ export default defineNuxtConfig({
     '@nuxtjs/color-mode',
     '@vueuse/motion/nuxt',
     '@nuxt/content',
+    '@pinia/nuxt',
   ],
   css: [
     '~/styles/global.css',

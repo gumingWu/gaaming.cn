@@ -1,16 +1,20 @@
 <script setup lang="ts">
+import { useProjectColor } from '~~/composables/color'
+
 const props = defineProps({
   title: String
 })
 
 const wordAvatar = props.title?.[0].toUpperCase()
 
-const { color, colorList } = useColor()
+const { getCurProjectColor } = useProjectColor()
+const { color, colorList } = getCurProjectColor(props.title!)
+
 const avatarBgStyle = {
-  background: `linear-gradient(to top, ${colorList.value[1]} 0%, ${colorList.value[6]} 100%)`
+  background: `linear-gradient(to top, ${colorList[1]} 0%, ${colorList[6]} 100%)`
 }
 const titleStyle = {
-  color: color.value
+  color
 }
 </script>
 
