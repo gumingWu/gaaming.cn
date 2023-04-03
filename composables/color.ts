@@ -17,7 +17,8 @@ export function useColor() {
 }
 
 export const useProjectColor = defineStore('project', () => {
-  const projectListColor = ref<Record<string, any>>(new Map())
+  // const projectListColor = ref<Record<string, any>>(new Map())
+  const projectListColor = useSessionStorage<Record<string, any>>('project-color', new Map())
 
   const getProjectListColor = (projectList: ProjectListType) => {
     if(projectListColor.value.size) return projectListColor

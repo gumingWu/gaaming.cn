@@ -8,6 +8,9 @@ const blogsQuery = await queryContent('blogs')
     date: -1
   })
   .find()
+
+const { saveContentMd } = useContentMd()
+saveContentMd(blogsQuery)
 </script>
 
 <template>
