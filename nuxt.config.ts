@@ -1,6 +1,7 @@
 import { defineNuxtConfig } from 'nuxt/config'
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
+  extends: ['@nuxt-themes/typography'],
   modules: [
     '@vueuse/nuxt',
     '@unocss/nuxt',
@@ -13,8 +14,6 @@ export default defineNuxtConfig({
   css: [
     '~/styles/global.css',
     '~/styles/vars.css',
-    '~/styles/vp-doc.css',
-    '~/styles/vp-doc-vars.css',
     '@unocss/reset/tailwind.css',
   ],
   unocss: {
@@ -46,4 +45,12 @@ export default defineNuxtConfig({
     preference: 'system', // default value of $colorMode.preference
     classSuffix: '',
   },
+  content: {
+    highlight: {
+      theme: {
+        default: 'vitesse-light',
+        dark: 'vitesse-dark'
+      },
+    }
+  }
 })

@@ -6,7 +6,7 @@
   <main pt-15 px-10 flex-1 >
     <slot />
   </main>
-  <LayoutFooter />
+  <!-- <LayoutFooter /> -->
 </template>
 
 <style scoped>
